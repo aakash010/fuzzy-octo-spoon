@@ -20,3 +20,7 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #else
 #define debug(x...)
 #endif
+
+#else
+#define debug(x...)
+#endif
